@@ -64,7 +64,7 @@ router.get('/loguot', cerrarSesion)
 
 //Form olvidé mi contraseña
 router.get('/rememberPass', (req, res)=>{
-    res.render('olvideMiContraseña')
+    res.render('rememberPass')
 })
 
 router.post('/rememberPass',[
